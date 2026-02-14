@@ -39,14 +39,14 @@ export default function SkillsSection() {
   return (
     <motion.section
       id="skills"
-      className="min-h-[88vh] relative md:top-1   flex items-center justify-center px-4 sm:px-6 md:px-10 "
+      className="min-h-[90vh] relative md:top-3 bottom-14   flex items-center justify-center px-4 sm:px-6 md:px-10 bg-cover  "
       style={{ backgroundImage: "url('')" }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       viewport={{ once: false }}
     >
-      <div className="w-full mx-auto max-w-[1450px] bg-gray-400/10 backdrop-blur-sm p-16 sm:p-8 md:p-10 rounded-[10px] text-center shadow-inner shadow-blue-400">
+      <div className="w-full mx-auto max-w-[1450px] bg-gray-400/10 backdrop-blur-sm p-14 sm:p-8 md:p-20 rounded-[10px] text-center shadow-inner shadow-blue-400">
         <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-10 text-black">
           💡 My Skills
         </h2>

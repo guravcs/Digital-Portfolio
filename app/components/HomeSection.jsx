@@ -13,7 +13,7 @@ export default function HomeSection() {
       viewport={{ once: false }}
     >
       {/* Wrapper */}
-      <div className="w-full max-w-[1450px] min-h-[87vh] flex flex-col md:flex-row items-center justify-center bg-gray-400/10 backdrop-blur-sm p-6 md:p-10 rounded-[10px] relative top-[80px] shadow-inner shadow-blue-400 md:space-x-60 space-y-6 md:space-y-0">
+      <div className="w-full max-w-[1450px] md:min-h-[87vh] min-h-[87vh] flex flex-col md:flex-row items-center justify-center bg-gray-400/10 backdrop-blur-sm p-6 md:p-10 rounded-[10px] relative top-[10px] md:top-20 sm:top-[80px] shadow-inner shadow-blue-400 md:space-x-60 space-y-1 md:space-y-0">
         
         {/* Left Side - Text */}
         <div className="text-center md:text-left mb-4 md:mb-0 md:pr-8">

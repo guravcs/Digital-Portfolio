@@ -12,7 +12,7 @@ export default function AboutSection() {
       transition={{ duration: 1 }}
       viewport={{ once: false }}
     >
-      <div className="relative md:top-[48px] top-10 w-full flex flex-col mx-auto max-w-[1450px] min-h-[88vh] items-center justify-center text-black rounded-[10px] bg-gray-400/10 backdrop-blur-sm gap-6 shadow-inner shadow-blue-400 p-4 sm:p-6 md:p-10 ">
+      <div className="relative md:top-[46px] sm:top-18 bottom-6 w-full flex flex-col mx-auto max-w-[1450px] min-h-[88vh] items-center justify-center text-black rounded-[10px] bg-gray-400/10 backdrop-blur-sm gap-6 shadow-inner shadow-blue-400 p-4 sm:p-6 md:p-10 ">
         
         {/* Heading */}
         <motion.h2

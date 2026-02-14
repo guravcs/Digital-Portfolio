@@ -22,7 +22,7 @@ export default function ContactSection() {
   return (
     <motion.section
       id="contact"
-      className="  min-h-[90vh]  relative md:top-6 top-6  px-4 sm:px-6 md:px-10 bg-cover bg-center bg-fixed"
+      className="  min-h-[90vh]  relative md:top-3   px-4 sm:px-6 md:px-10 bg-cover bg-center bg-fixed"
       style={{ backgroundImage: "url('')" }}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -34,7 +34,7 @@ export default function ContactSection() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false }}
-        className="w-full min-h-[87vh] mx-auto max-w-[1450px] flex flex-col items-center justify-center bg-gray-400/10 backdrop-blur-sm p-6 sm:p-8 md:p-10 rounded-[10px] text-center shadow-inner shadow-blue-400"
+        className="w-full min-h-[85vh] md:min-h-[89vh] mx-auto max-w-[1450px] flex flex-col items-center justify-center bg-gray-400/10 relative bottom-10 md:top-1 backdrop-blur-sm p-6 sm:p-8 md:p-10 rounded-[10px] text-center shadow-inner shadow-blue-400"
       >
         <motion.h2
           variants={item}
