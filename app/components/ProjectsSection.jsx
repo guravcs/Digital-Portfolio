@@ -7,8 +7,8 @@ export default function ProjectsSection() {
     {
       name: "Ecommerce Website",
       description: "Built with React.js",
-      live: "https://your-portfolio-link.com",
-      github: "",
+      live: "https://ecommerce-app-beige-one.vercel.app/",
+      github: "https://github.com/guravcs/Digital-Portfolio",
     },
     {
       name: "Twitter Clone",
